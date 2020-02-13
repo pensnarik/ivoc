@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        span.line {display: block; margin-top: 6px; margin-bottom: 6px;}
+
+        span.word {
+            padding: 2px 4px 2px 4px;
+            border-radius: 4px 4px 4px 4px;
+            cursor: hand;
+        }
+
+        span.word.known {background-color: #c4ffc4;}
+        span.word.unknown {background-color: #ffd8d8;}
+        span.word.name {background-color: #ffffd8;}
+        span.word.not-word {background-color: #f8decc;}
+        span.word.new {background-color: #f8decc;}
+
+        #popup {
+            display: none;
+            background-color: white;
+            border: 1px solid grey;
+            margin: 10px;
+            width: 200px;
+            z-index: 1;
+            text-align: center;
+            border-radius: 5px;
+            position: absolute;
+        }
+
+        #popup ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #popup li {
+            padding-top: 5px; padding-bottom: 5px;
+        }
+
+        #popup li:hover {
+            background-color: grey;
+            cursor: hand;
+        }
+
+        #menu-cancel {
+            border-top: 1px solid grey;
+        }
+    </style>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+
+        function display_menu(position, word)
+        {
+            console.log(position);
+            $('#popup').css('top', position.top);
+            $('#popup').css('left', position.left);
+            $('#popup').css('display', 'block');
+            $('#popup .menu-item').attr('data-word', word);
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('.word').click(function(e) {
+                console.log($(this).text());
+                display_menu($(this).position(), $(this).text());
+            });
+
+            $('#menu-cancel').click(function() {
+                $('#popup').hide();
+            });
+
+            $('.menu-item').click(function(event) {
+                console.log($(this).attr('data-status'));
+                console.log($(this).attr('data-word'));
+
+                var payload = JSON.stringify({"word": $(this).attr('data-word'),
+                                              "status": $(this).attr('data-status')});
+
+                $.ajax({url: "/api/update",
+                        type: "POST",
+                        data: payload,
+                        contentType: "application/json",
+                        dataType: "json"
+                }).done(function() {
+                    console.log('Done');
+                    $('#popup').hide();
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="popup">
+        <ul>
+            <li class="menu-item" data-status="Y">I KNOW this word</li>
+            <li class="menu-item" data-status="?">I DON'T KNOW this word</li>
+            <li class="menu-item" data-status="N">This is a NAME</li>
+            <li class="menu-item" data-status="W">This is not a WORD</li>
+            <li id="menu-cancel">Cancel</li>
+        </ul>
+    </div>
+    {{ contents|safe }}
+</body>
+</html>
