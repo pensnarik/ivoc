@@ -27,12 +27,12 @@ ship. However, if you wish to continue to do so, I must ask you to do one thing.
 - Are we ready to go?
 - We're already late.
 
-- These **geotherms** confirm the last transmission of the Osiris. The machines are digging. They're
+- These geotherms confirm the last transmission of the Osiris. The machines are digging. They're
 boring from the surface down to Zion.
 - Mother
 - They'll avoid the perimeter defense.
 - How fast are they moving?
-- Control estimates their **descent**at 100 meters an hour.
+- Control estimates their descentat 100 meters an hour.
 - How deep are [they]?
 - Almost 2000 meters.
 - [What about the scans] from the Osiris?
@@ -61,15 +61,15 @@ secure broadcast position.
 - Proceed as ordered...
 - What is it?
 - I don't know. However, I must ask one of you for help. Some of you believe as I believe, some of
-you do not. Those of you that do know we are [nearing the end of our struggle]. The **prophecy**
+you do not. Those of you that do know we are [nearing the end of our struggle]. The prophecy
 will be fulfilled soon. But before it can be the Oracle must be consulted. If we return and recharge
 now we can be back in 36 hours, well before the machines reach this depth. Do you understand what
 you're asking?
 - I am asking that one ship remain here in our place in case the Oracle should attempt to contact us.
 - Bullshit. You're asking one of us to [disobey a direct] order.
 - That's right, I am. But we well know that the reason most of us are here is because of our
-**affinity** for disobedience.
-- What happens when you get back to Zion and the commander throws you in the **stockade**?
+affinity for disobedience.
+- What happens when you get back to Zion and the commander throws you in the stockade?
 - He won't.
 - Goddamn it, Morpheus, you [ain't never gonna] change. Shit, I'll do it just to see what Dead bolt
 does to you. You got 36 hours.
@@ -126,7 +126,7 @@ on approach. Let's [open her up].
 - Captain Morpheus.
 - Are you here to escort me to the [stockade], captain?
 - I'm just here to keep the peace.
-- Commander Lock demands Requests your immediate **counsel**, sir.
+- Commander Lock demands Requests your immediate counsel, sir.
 - Link.
 - Sir?
 - I want the ship ready to go as soon as possible. Understood, sir.
@@ -591,7 +591,7 @@ answer such a call?
 - What?
 - Thank you, Captain Niobe.
 - Commander Lock, you have your orders.
-- This Council is hereby **adjourned**.
+- This Council is hereby adjourned.
 - Niobe, what are you doing?
 - What I can.
 - Why?
@@ -719,7 +719,7 @@ Wait.
 Okay.
 Yes.
 That's it.
-I **envy** you. But such a thing is not meant to last. Come with me.
+I envy you. But such a thing is not meant to last. Come with me.
 Not again.
 It's all right, boys. They're with me.
 These fellas work for my husband.
@@ -1073,7 +1073,7 @@ You need human beings to survive.
 There are levels of survival we are prepared to accept. The relevant issue is whether or not you are ready
 to accept the responsibility for the death of every human being in this world.
 It is interesting reading your reactions.
-Your five predecessors were, by design, based on a similar predication a contingent **affirmation**
+Your five predecessors were, by design, based on a similar predication a contingent affirmation
 that was meant to create a profound attachment to the rest of your species, facilitating the function of
 the One.
 While the others experience this in a general way your experience is far more specificvis-á-vis love. Trinity!

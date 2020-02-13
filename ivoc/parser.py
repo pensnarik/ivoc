@@ -9,7 +9,7 @@ replacemap = [["who's", "who is"], ["'l", " will"], ["'re", " are"], ["don't", "
               ["hadn't", "had not"], ["wasn't", "was not"], ["i've", "i have"], ["'cause", "because"],
               ["could've", "could have"], ["you've", "you have"], ["isn't", "is not"],
               ["why'd", "why would"], ["'s", ""], ["'ve", " have"], ["won't", "would not"],
-              ["can't", "can not"], ["n't", " not"], ["you'd", "you would"]]
+              ["can't", "can not"], ["n't", " not"], ["you'd", "you would"], ["'d", " would"]]
 
 def get_class(word, db):
     if word.lower() in db.keys():
