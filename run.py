@@ -6,7 +6,7 @@ import datetime as dt
 
 from flask import Flask, abort, render_template, request, jsonify
 
-from ivoc.parser import prepare
+from ivoc.parser import prepare, statuses
 
 app = Flask('ivoc')
 
@@ -23,18 +23,18 @@ def text(text_name):
         data = f.read()
 
     with open('db.json', 'rt') as f:
-        d = json.loads(f.read())
+        db = json.loads(f.read())
 
-    return render_template('text.html', title=text_name, contents=prepare(data, d))
+    return render_template('text.html', title=text_name, contents=prepare(data, db))
 
 def update_database(word, status, source):
     with open('db.json', 'rt') as f:
-        d = json.loads(f.read())
+        db = json.loads(f.read())
 
-    if word in d.keys():
-        d[word]['status'] = status
+    if word in db.keys():
+        db[word]['status'] = status
     else:
-        d[word] = {'added': date = dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC'),
+        db[word] = {'added': dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC'),
                    'status': status,
                    'source': source}
 
@@ -44,5 +44,6 @@ def update_database(word, status, source):
 @app.route('/api/update', methods=['POST'])
 def api_update():
     data = request.get_json()
-    print(data)
-    return jsonify({"status": "OK"})
+    update_database(data['word'], data['status'], data['source'])
+    return jsonify({"status": "OK", "word": data['word'], "status": data['status'],
+                    "class": statuses.get(data['status'])})

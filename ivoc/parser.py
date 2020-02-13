@@ -8,7 +8,8 @@ replacemap = [["who's", "who is"], ["'l", " will"], ["'re", " are"], ["don't", "
               ["should've", "should have"], ["that's", "that is"], ["doesn't", "does not"],
               ["hadn't", "had not"], ["wasn't", "was not"], ["i've", "i have"], ["'cause", "because"],
               ["could've", "could have"], ["you've", "you have"], ["isn't", "is not"],
-              ["why'd", "why would"], ["'s", ""], ["'ve", " have"], ["n't", " not"]]
+              ["why'd", "why would"], ["'s", ""], ["'ve", " have"], ["won't", "would not"],
+              ["can't", "can not"], ["n't", " not"]]
 
 def get_class(word, db):
     if word.lower() in db.keys():
@@ -18,7 +19,8 @@ def get_class(word, db):
 
 def append_word(buffer, word, db):
     span_class = get_class(word, db)
-    return buffer + '<span class="word %s">%s</span>' % (span_class, word)
+    return buffer + '<span class="word" data-status="%s" data-word="%s">%s</span>' % \
+           (span_class, word.lower(), word)
 
 def prepare(data, db):
 

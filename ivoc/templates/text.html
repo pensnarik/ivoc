@@ -11,11 +11,11 @@
             cursor: hand;
         }
 
-        span.word.known {background-color: #c4ffc4;}
-        span.word.unknown {background-color: #ffd8d8;}
-        span.word.name {background-color: #ffffd8;}
-        span.word.not-word {background-color: #f8decc;}
-        span.word.new {background-color: #f8decc;}
+        span.word[data-status="known"] {background-color: #c4ffc4;}
+        span.word[data-status="unknown"] {background-color: #ffd8d8;}
+        span.word[data-status="name"] {background-color: #ffffd8;}
+        span.word[data-status="not-word"] {background-color: #f8decc;}
+        span.word[data-status="new"] {background-color: #f8decc;}
 
         #popup {
             display: none;
@@ -66,7 +66,7 @@
 
             $('.word').click(function(e) {
                 console.log($(this).text());
-                display_menu($(this).position(), $(this).text());
+                display_menu($(this).position(), $(this).attr('data-word'));
             });
 
             $('#menu-cancel').click(function() {
@@ -78,16 +78,18 @@
                 console.log($(this).attr('data-word'));
 
                 var payload = JSON.stringify({"word": $(this).attr('data-word'),
-                                              "status": $(this).attr('data-status')});
+                                              "status": $(this).attr('data-status'),
+                                              "source": $(document).find("title").text()});
 
                 $.ajax({url: "/api/update",
                         type: "POST",
                         data: payload,
                         contentType: "application/json",
                         dataType: "json"
-                }).done(function() {
-                    console.log('Done');
+                }).done(function(data) {
+                    console.log(data);
                     $('#popup').hide();
+                    $('span[data-word=' + data['word'] + ']').attr('data-status', data['class']);
                 });
             });
         });
@@ -97,7 +99,7 @@
     <div id="popup">
         <ul>
             <li class="menu-item" data-status="Y">I KNOW this word</li>
-            <li class="menu-item" data-status="?">I DON'T KNOW this word</li>
+            <li class="menu-item" data-status="U">I DON'T KNOW this word</li>
             <li class="menu-item" data-status="N">This is a NAME</li>
             <li class="menu-item" data-status="W">This is not a WORD</li>
             <li id="menu-cancel">Cancel</li>
