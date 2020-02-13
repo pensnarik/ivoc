@@ -1,7 +1,7 @@
 import re
 import string
 
-statuses = {'U': 'unknown', 'Y': 'known', 'N': 'name', 'W': 'not-word'}
+statuses = {'U': 'unknown', 'Y': 'known', 'N': 'name', 'W': 'not-word', '?': 'unknown'}
 
 replacemap = [["who's", "who is"], ["'l", " will"], ["'re", " are"], ["don't", "do not"], ["it's", "it is"],
               ["haven't", "have not"], ["didn't", "did not"], ["i'm", "i am"], ["i'd", "i would"],
@@ -9,7 +9,7 @@ replacemap = [["who's", "who is"], ["'l", " will"], ["'re", " are"], ["don't", "
               ["hadn't", "had not"], ["wasn't", "was not"], ["i've", "i have"], ["'cause", "because"],
               ["could've", "could have"], ["you've", "you have"], ["isn't", "is not"],
               ["why'd", "why would"], ["'s", ""], ["'ve", " have"], ["won't", "would not"],
-              ["can't", "can not"], ["n't", " not"]]
+              ["can't", "can not"], ["n't", " not"], ["you'd", "you would"]]
 
 def get_class(word, db):
     if word.lower() in db.keys():
