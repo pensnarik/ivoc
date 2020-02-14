@@ -109,6 +109,11 @@
         "source": "data",
         "status": "Y"
     },
+    "aching": {
+        "added": "2020-02-14 14:23:50 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "acquired": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -291,6 +296,11 @@
     "ago": {
         "dt": "2020-02-10 15:38:28 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "ah": {
+        "added": "2020-02-14 14:24:18 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "ahead": {
@@ -1040,6 +1050,11 @@
         "source": "the-matrix-reloaded.txt",
         "status": "Y"
     },
+    "beelzebub": {
+        "added": "2020-02-14 14:24:26 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "N"
+    },
     "been": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -1237,6 +1252,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "bismillah": {
+        "added": "2020-02-14 14:24:15 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "N"
+    },
     "bistro": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -1321,6 +1341,11 @@
     },
     "blood": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "blows": {
+        "added": "2020-02-14 14:23:34 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "blue": {
@@ -2880,6 +2905,11 @@
         "source": "the-matrix-reloaded.txt",
         "status": "Y"
     },
+    "cry": {
+        "added": "2020-02-14 14:23:45 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "cubicle": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
@@ -4383,8 +4413,18 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "fandango": {
+        "added": "2020-02-14 14:23:59 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "N"
+    },
     "fantastic": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "fantasy": {
+        "added": "2020-02-14 14:23:28 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "far": {
@@ -4507,6 +4547,11 @@
         "dt": "2020-02-10 16:44:37 UTC",
         "source": "the-matrix-reloaded.txt",
         "status": "Y"
+    },
+    "figaro": {
+        "added": "2020-02-14 14:24:08 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "N"
     },
     "fight": {
         "added": "2020-02-10 14:38:33 UTC",
@@ -4850,6 +4895,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "frightening": {
+        "added": "2020-02-14 14:24:03 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "from": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -4942,6 +4992,11 @@
         "added": "2020-02-14 13:36:52 UTC",
         "source": "putin",
         "status": "Y"
+    },
+    "galileo": {
+        "added": "2020-02-14 14:24:05 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "N"
     },
     "game": {
         "added": "2020-02-10 14:38:33 UTC",
@@ -6713,6 +6768,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
     },
+    "landslide": {
+        "added": "2020-02-14 14:23:29 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "language": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -6936,6 +6996,11 @@
     },
     "light": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "lightning": {
+        "added": "2020-02-14 14:24:02 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "lights": {
@@ -7245,6 +7310,11 @@
         "source": "the-matrix-reloaded.txt",
         "status": "Y"
     },
+    "magnifico": {
+        "added": "2020-02-14 14:24:10 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "mail": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -7308,9 +7378,19 @@
         "status": "U",
         "translation": "неисправность"
     },
+    "mama": {
+        "added": "2020-02-14 14:23:36 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "mamacita": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
+    },
+    "mamma": {
+        "added": "2020-02-14 14:24:20 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
     },
     "mammal": {
         "added": "2020-02-10 14:38:33 UTC",
@@ -7534,6 +7614,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "mia": {
+        "added": "2020-02-14 14:24:23 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "mickey": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "N"
@@ -7690,6 +7775,11 @@
     },
     "monkeys": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "monstrosity": {
+        "added": "2020-02-14 14:24:13 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "month": {
@@ -8237,6 +8327,11 @@
     "onto": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
+    },
+    "ooh": {
+        "added": "2020-02-14 14:23:43 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "W"
     },
     "oops": {
         "added": "2020-02-10 14:38:33 UTC",
@@ -10217,6 +10312,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "scaramouche": {
+        "added": "2020-02-14 14:23:55 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "N"
+    },
     "scare": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -10348,6 +10448,11 @@
     },
     "send": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "sends": {
+        "added": "2020-02-14 14:23:47 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "sense": {
@@ -10500,6 +10605,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "shivers": {
+        "added": "2020-02-14 14:23:48 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "shoot": {
         "dt": "2020-02-10 17:20:51 UTC",
         "source": "the-matrix-reloaded.txt",
@@ -10594,6 +10704,11 @@
     },
     "signs": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "silhouetto": {
+        "added": "2020-02-14 14:23:53 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "silk": {
@@ -10707,6 +10822,11 @@
     },
     "sketchy": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "skies": {
+        "added": "2020-02-14 14:23:31 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "skill": {
@@ -11017,6 +11137,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
     },
+    "spare": {
+        "added": "2020-02-14 14:24:12 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "sparring": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -11078,6 +11203,16 @@
     },
     "spin": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "spine": {
+        "added": "2020-02-14 14:23:49 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
+    "spit": {
+        "added": "2020-02-14 14:24:28 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "splinter": {
@@ -11699,6 +11834,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
     },
+    "sympathy": {
+        "added": "2020-02-14 14:23:32 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "synthetic": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -12076,8 +12216,18 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "thrown": {
+        "added": "2020-02-14 14:23:40 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
+    },
     "throws": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "thunderbolt": {
+        "added": "2020-02-14 14:24:00 UTC",
+        "source": "bohemian-rhapsody",
         "status": "Y"
     },
     "thus": {
@@ -12322,6 +12472,11 @@
     "trifecta": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
+    },
+    "trigger": {
+        "added": "2020-02-14 14:23:38 UTC",
+        "source": "bohemian-rhapsody",
+        "status": "Y"
     },
     "triggered": {
         "dt": "2020-02-10 17:24:08 UTC",
