@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import json
 import datetime as dt
 
@@ -40,6 +41,14 @@ def update_database(word, status, source):
 
     with open('db.json', 'wt') as f:
         f.write(json.dumps(db, indent=4, sort_keys=True, ensure_ascii=False))
+
+    with open('README.md', 'rt') as f:
+        readme = f.read()
+
+    readme = re.sub('Words in the database: \\d+', 'Words in the database: %s' % len(db), readme)
+
+    with open('README.md', 'wt') as f:
+        f.write(readme)
 
 @app.route('/api/update', methods=['POST'])
 def api_update():
