@@ -2,54 +2,7 @@
 <head>
     <title>{{ title }}</title>
     <meta charset="utf-8">
-    <style type="text/css">
-        span.line {display: block; margin-top: 6px; margin-bottom: 6px;}
-
-        span.word {
-            padding: 2px 4px 2px 4px;
-            border-radius: 4px 4px 4px 4px;
-            cursor: hand;
-            margin: 4px 0px 4px 0px;
-        }
-
-        span.word[data-status="known"] {background-color: #c4ffc4;}
-        span.word[data-status="unknown"] {background-color: #ffd8d8;}
-        span.word[data-status="name"] {background-color: #ffffd8;}
-        span.word[data-status="not-word"] {background-color: #f8decc;}
-        span.word[data-status="new"] {background-color: #aed6f1;}
-
-        #popup {
-            display: none;
-            background-color: white;
-            border: 1px solid grey;
-            margin: 10px;
-            width: 200px;
-            z-index: 1;
-            text-align: center;
-            border-radius: 5px;
-            position: absolute;
-        }
-
-        #popup ul {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        #popup li {
-            padding-top: 5px; padding-bottom: 5px;
-        }
-
-        #popup li:hover {
-            background-color: grey;
-            cursor: hand;
-        }
-
-        #menu-cancel {
-            border-top: 1px solid grey;
-        }
-    </style>
+    <link rel="stylesheet" href="/static/ivoc.css?v=3" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
 
