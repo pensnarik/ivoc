@@ -621,6 +621,11 @@
         "source": "the-matrix-reloaded.txt",
         "status": "N"
     },
+    "arbitrary": {
+        "added": "2020-02-14 16:32:36 UTC",
+        "source": "metaclasses",
+        "status": "U"
+    },
     "architect": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -806,6 +811,16 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "attribute": {
+        "added": "2020-02-14 16:40:29 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "attributes": {
+        "added": "2020-02-14 16:40:23 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "august": {
         "added": "2020-02-14 13:35:33 UTC",
         "source": "putin",
@@ -969,8 +984,18 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "baseclasses": {
+        "added": "2020-02-14 16:40:26 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "based": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "bases": {
+        "added": "2020-02-14 16:40:35 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "basic": {
@@ -1094,6 +1119,11 @@
     },
     "begun": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "behaves": {
+        "added": "2020-02-14 16:32:21 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "behavior": {
@@ -1762,6 +1792,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "callables": {
+        "added": "2020-02-14 16:38:52 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "called": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -2052,6 +2087,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "cheats": {
+        "added": "2020-02-14 16:39:22 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "check": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -2181,6 +2221,11 @@
     },
     "classify": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "classmethods": {
+        "added": "2020-02-14 16:40:45 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "clean": {
@@ -2365,6 +2410,11 @@
     "commodities": {
         "added": "2020-02-14 13:35:53 UTC",
         "source": "putin",
+        "status": "Y"
+    },
+    "commonly": {
+        "added": "2020-02-14 16:39:32 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "communist": {
@@ -2836,6 +2886,11 @@
     "created": {
         "dt": "2020-02-10 16:27:40 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "creates": {
+        "added": "2020-02-14 16:39:38 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "creating": {
@@ -3329,6 +3384,11 @@
         "source": "the-matrix-reloaded.txt",
         "status": "Y"
     },
+    "determined": {
+        "added": "2020-02-14 16:40:25 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "detroit": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "N"
@@ -3368,6 +3428,11 @@
     },
     "dick": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "dict": {
+        "added": "2020-02-14 16:40:21 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "did": {
@@ -3737,6 +3802,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "W"
     },
+    "e": {
+        "added": "2020-02-14 16:47:30 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "each": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -4012,6 +4082,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "entirely": {
+        "added": "2020-02-14 16:40:12 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "environment": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -4203,6 +4278,16 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "executed": {
+        "added": "2020-02-14 16:40:14 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "executes": {
+        "added": "2020-02-14 16:39:42 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "exhausted": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -4351,6 +4436,11 @@
     "factors": {
         "added": "2020-02-14 09:00:38 UTC",
         "source": "data",
+        "status": "Y"
+    },
+    "factory": {
+        "added": "2020-02-14 16:39:34 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "facts": {
@@ -5089,6 +5179,11 @@
         "source": "the-matrix-reloaded.txt",
         "status": "Y"
     },
+    "getattr": {
+        "added": "2020-02-14 16:40:54 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "gets": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -5140,6 +5235,11 @@
     "glitch": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
+    },
+    "global": {
+        "added": "2020-02-14 16:40:31 UTC",
+        "source": "metaclasses",
+        "status": "Y"
     },
     "gnosis": {
         "dt": "2020-02-10 16:45:13 UTC",
@@ -6067,6 +6167,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "implement": {
+        "added": "2020-02-14 16:40:55 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "implementation": {
         "added": "2020-02-14 09:00:24 UTC",
         "source": "data",
@@ -6214,6 +6319,16 @@
         "status": "?",
         "translation": "присущие"
     },
+    "inherited": {
+        "added": "2020-02-14 16:40:28 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "init": {
+        "added": "2020-02-14 16:39:52 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "initially": {
         "dt": "2020-02-10 17:07:46 UTC",
         "source": "the-matrix-reloaded.txt",
@@ -6234,6 +6349,16 @@
     "insincere": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
+    },
+    "instance": {
+        "added": "2020-02-14 16:32:16 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "instantiate": {
+        "added": "2020-02-14 16:40:41 UTC",
+        "source": "metaclasses",
+        "status": "U"
     },
     "instantly": {
         "dt": "2020-02-10 17:07:46 UTC",
@@ -6436,6 +6561,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "iter": {
+        "added": "2020-02-14 16:40:52 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "its": {
         "dt": "2020-02-10 17:09:38 UTC",
         "source": "the-matrix-reloaded.txt",
@@ -6499,6 +6629,11 @@
     "jerk": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
+    },
+    "jerub": {
+        "added": "2020-02-14 16:38:57 UTC",
+        "source": "metaclasses",
+        "status": "N"
     },
     "jesus": {
         "added": "2020-02-10 14:38:33 UTC",
@@ -7597,6 +7732,16 @@
         "status": "U",
         "translation": "мессий"
     },
+    "metaclass": {
+        "added": "2020-02-14 16:32:12 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "metaclasses": {
+        "added": "2020-02-14 16:38:54 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "metallic": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -7608,6 +7753,16 @@
     "meters": {
         "dt": "2020-02-10 17:11:53 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "method": {
+        "added": "2020-02-14 16:40:48 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "methods": {
+        "added": "2020-02-14 16:39:54 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "metro": {
@@ -7920,6 +8075,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "namespace": {
+        "added": "2020-02-14 16:40:18 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "natalie": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "N"
@@ -8149,6 +8309,11 @@
     "obeyed": {
         "dt": "2020-02-10 17:14:06 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "object": {
+        "added": "2020-02-14 16:32:20 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "objectives": {
@@ -9412,6 +9577,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "purely": {
+        "added": "2020-02-14 16:39:18 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "purges": {
         "added": "2020-02-14 13:37:11 UTC",
         "source": "putin",
@@ -9446,6 +9616,11 @@
     },
     "puzzle": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "python": {
+        "added": "2020-02-14 16:32:30 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "quarter": {
@@ -9685,6 +9860,11 @@
         "source": "putin",
         "status": "Y"
     },
+    "recreate": {
+        "added": "2020-02-14 16:39:12 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "recycling": {
         "dt": "2020-02-10 17:19:36 UTC",
         "source": "the-matrix-reloaded.txt",
@@ -9727,6 +9907,16 @@
     "refused": {
         "dt": "2020-02-10 17:19:40 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "registering": {
+        "added": "2020-02-14 16:40:08 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "registry": {
+        "added": "2020-02-14 16:40:09 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "regular": {
@@ -9984,6 +10174,11 @@
     "result": {
         "dt": "2020-02-10 17:19:58 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "resulting": {
+        "added": "2020-02-14 16:40:17 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "results": {
@@ -11342,6 +11537,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "statement": {
+        "added": "2020-02-14 16:39:44 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
     "states": {
         "added": "2020-02-14 13:37:56 UTC",
         "source": "putin",
@@ -11555,6 +11755,16 @@
     },
     "style": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "subclass": {
+        "added": "2020-02-14 16:39:29 UTC",
+        "source": "metaclasses",
+        "status": "Y"
+    },
+    "subclasses": {
+        "added": "2020-02-14 16:40:47 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "subjects": {
@@ -12115,6 +12325,11 @@
     },
     "there": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "therefore": {
+        "added": "2020-02-14 16:40:01 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "these": {
@@ -12879,6 +13094,11 @@
     "vampires": {
         "dt": "2020-02-10 17:25:13 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "variable": {
+        "added": "2020-02-14 16:40:34 UTC",
+        "source": "metaclasses",
         "status": "Y"
     },
     "various": {

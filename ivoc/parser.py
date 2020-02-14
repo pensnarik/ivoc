@@ -3,6 +3,7 @@ import string
 
 statuses = {'U': 'unknown', 'Y': 'known', 'N': 'name', 'W': 'not-word', '?': 'unknown'}
 
+# TODO: Consider that Python dictionaries don't have a reliable order for iteration
 replacemap = [["who's", "who is"], ["'l", " will"], ["'re", " are"], ["don't", "do not"], ["it's", "it is"],
               ["haven't", "have not"], ["didn't", "did not"], ["i'm", "i am"], ["i'd", "i would"],
               ["should've", "should have"], ["that's", "that is"], ["doesn't", "does not"],
