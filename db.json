@@ -1788,6 +1788,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "calamari": {
+        "added": "2020-02-16 20:39:08 UTC",
+        "source": "the-matrix-revolutions",
+        "status": "Y"
+    },
     "call": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -2833,7 +2838,7 @@
     },
     "crack": {
         "added": "2020-02-10 14:38:33 UTC",
-        "status": "?"
+        "status": "Y"
     },
     "cracked": {
         "added": "2020-02-10 14:38:33 UTC",
@@ -3012,6 +3017,11 @@
     },
     "cuter": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "cuts": {
+        "added": "2020-02-16 20:39:12 UTC",
+        "source": "the-matrix-revolutions",
         "status": "Y"
     },
     "cypher": {
@@ -5487,6 +5497,11 @@
     },
     "guns": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "Y"
+    },
+    "gut": {
+        "added": "2020-02-16 20:38:57 UTC",
+        "source": "the-matrix-revolutions",
         "status": "Y"
     },
     "guy": {
@@ -9023,6 +9038,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "pills": {
+        "added": "2020-02-16 20:38:55 UTC",
+        "source": "the-matrix-revolutions",
+        "status": "Y"
+    },
     "pilot": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -9034,6 +9054,11 @@
     "pinpoint": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "?"
+    },
+    "pipe": {
+        "added": "2020-02-16 20:38:59 UTC",
+        "source": "the-matrix-revolutions",
+        "status": "Y"
     },
     "pipelines": {
         "dt": "2020-02-10 17:18:11 UTC",
@@ -10440,6 +10465,11 @@
     },
     "sasha": {
         "added": "2020-02-10 14:38:33 UTC",
+        "status": "N"
+    },
+    "sati": {
+        "added": "2020-02-16 20:39:18 UTC",
+        "source": "the-matrix-revolutions",
         "status": "N"
     },
     "satisfaction": {
@@ -12012,6 +12042,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "sweep": {
+        "added": "2020-02-16 20:39:04 UTC",
+        "source": "the-matrix-revolutions",
+        "status": "Y"
+    },
     "sweeping": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -13263,6 +13298,11 @@
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
     },
+    "wakes": {
+        "added": "2020-02-16 20:39:11 UTC",
+        "source": "the-matrix-revolutions",
+        "status": "Y"
+    },
     "walk": {
         "added": "2020-02-10 14:38:33 UTC",
         "status": "Y"
@@ -13522,6 +13562,11 @@
     "why": {
         "dt": "2020-02-10 17:26:30 UTC",
         "source": "the-matrix-reloaded.txt",
+        "status": "Y"
+    },
+    "wide": {
+        "added": "2020-02-16 20:39:05 UTC",
+        "source": "the-matrix-revolutions",
         "status": "Y"
     },
     "wife": {
